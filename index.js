@@ -68,9 +68,13 @@ const parseYAMLContent = (yamlData) => {
     }
   });
 
+  const rules = Array.from(rulesMap).map(([key, values]) => ({
+    [key]: values
+  }));
+
   return {
-    version: 1,
-    rules: Object.fromEntries(rulesMap)
+    rules,
+    version: 1
   };
 };
 
