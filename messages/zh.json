@@ -1,0 +1,15 @@
+{
+  "title": "Sing-box 规则集转换器",
+  "description": "将 Clash YAML 规则从 URL 转换为 Sing-box JSON 格式",
+  "yamlLinks": "YAML 链接",
+  "addLink": "添加链接",
+  "enterYamlUrl": "输入 YAML URL...",
+  "convert": "转换为 JSON",
+  "converting": "转换中...",
+  "outputJson": "输出 JSON",
+  "download": "下载",
+  "errorNoValidLinks": "请输入至少一个有效的 YAML 链接",
+  "errorConversionFailed": "YAML 转换为 JSON 失败",
+  "successConversion": "转换成功！"
+}
+

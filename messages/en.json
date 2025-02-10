@@ -1,0 +1,15 @@
+{
+  "title": "Sing-box Rule Set Converter",
+  "description": "Convert Clash YAML rules to Sing-box JSON format from URLs",
+  "yamlLinks": "YAML Links",
+  "addLink": "Add Link",
+  "enterYamlUrl": "Enter YAML URL...",
+  "convert": "Convert to JSON",
+  "converting": "Converting...",
+  "outputJson": "Output JSON",
+  "download": "Download",
+  "errorNoValidLinks": "Please input at least one valid YAML link",
+  "errorConversionFailed": "Failed to convert YAML to JSON",
+  "successConversion": "Conversion successful!"
+}
+
