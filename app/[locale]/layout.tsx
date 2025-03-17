@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Toaster } from "sonner";
 import "../globals.css";
+import GitHubCorner from "@/components/GitHubCorner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,6 +39,7 @@ export default async function LocaleLayout({
           {children}
           <Toaster />
           <Analytics />
+          <GitHubCorner />
         </NextIntlClientProvider>
       </body>
     </html>
